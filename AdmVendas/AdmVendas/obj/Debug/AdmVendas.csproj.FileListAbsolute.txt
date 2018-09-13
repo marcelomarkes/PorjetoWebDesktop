@@ -1,0 +1,126 @@
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe.config
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.pdb
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csprojResolveAssemblyReference.cache
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmLogin.resources
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.Properties.Resources.resources
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.GenerateResource.Cache
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CoreCompileInputs.cache
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.exe
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.pdb
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarca.resources
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmModelo.resources
+C:\Users\marce\OneDrive\Documentos\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmVeiculo.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe.config
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.pdb
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmAcompanhaVendas.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarcaModelo.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FormVendedor.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmLogin.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarca.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmModelo.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmVeiculo.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.Properties.Resources.resources
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.exe
+C:\Users\Usuario\Documents\CursoProgramacao\C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.pdb
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\App.Config
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe.config
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.pdb
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\MetroFramework.dll
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\ZKWeb.System.Drawing.dll
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.pdb
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll.config
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmAcompanhaVendas.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmCor.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarcaModelo.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmPrincipal.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmRelVendas.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmVendedor.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmLogin.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarca.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmModelo.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmVeiculo.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.Properties.Resources.resources
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.GenerateResource.Cache
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.exe
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.pdb
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\App.Config
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe.config
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.pdb
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.pdb
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll.config
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csprojResolveAssemblyReference.cache
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmAcompanhaVendas.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmCor.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarcaModelo.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmPrincipal.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmRelVendas.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmVendedor.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmLogin.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarca.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmModelo.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmVeiculo.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.Properties.Resources.resources
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.GenerateResource.cache
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CoreCompileInputs.cache
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CopyComplete
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.exe
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.pdb
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\App.Config
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe.config
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.pdb
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.pdb
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll.config
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csprojResolveAssemblyReference.cache
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmAcompanhaVendas.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmCor.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarcaModelo.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmPrincipal.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmRelVendas.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmVendedor.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmLogin.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarca.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmModelo.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmVeiculo.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.Properties.Resources.resources
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.GenerateResource.cache
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CoreCompileInputs.cache
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CopyComplete
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.exe
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.pdb
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\App.Config
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe.config
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.exe
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\AdmVendas.pdb
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.pdb
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\bin\Debug\DAO.dll.config
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csprojResolveAssemblyReference.cache
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmAcompanhaVendas.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmCor.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarcaModelo.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmPrincipal.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmRelVendas.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.FrmVendedor.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmLogin.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmMarca.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmModelo.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.frmVeiculo.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.Properties.Resources.resources
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.GenerateResource.cache
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CoreCompileInputs.cache
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.csproj.CopyComplete
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.exe
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\AdmVendas\obj\Debug\AdmVendas.pdb

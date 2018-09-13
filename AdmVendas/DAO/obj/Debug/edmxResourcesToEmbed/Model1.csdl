@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_vendasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="banco" annotation:LazyLoadingEnabled="false">
+    <EntitySet Name="tb_cliente" EntityType="db_vendasModel.tb_cliente" />
+    <EntitySet Name="tb_empresa" EntityType="db_vendasModel.tb_empresa" />
+    <EntitySet Name="tb_marca" EntityType="db_vendasModel.tb_marca" />
+    <EntitySet Name="tb_modelo" EntityType="db_vendasModel.tb_modelo" />
+    <EntitySet Name="tb_veiculo" EntityType="db_vendasModel.tb_veiculo" />
+    <EntitySet Name="tb_venda" EntityType="db_vendasModel.tb_venda" />
+    <EntitySet Name="tb_vendedor" EntityType="db_vendasModel.tb_vendedor" />
+    <AssociationSet Name="fk_tb_cliente_tb_vendedor1" Association="db_vendasModel.fk_tb_cliente_tb_vendedor1">
+      <End Role="tb_vendedor" EntitySet="tb_vendedor" />
+      <End Role="tb_cliente" EntitySet="tb_cliente" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_venda_tb_cliente1" Association="db_vendasModel.fk_tb_venda_tb_cliente1">
+      <End Role="tb_cliente" EntitySet="tb_cliente" />
+      <End Role="tb_venda" EntitySet="tb_venda" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_marca_tb_empresa" Association="db_vendasModel.fk_tb_marca_tb_empresa">
+      <End Role="tb_empresa" EntitySet="tb_empresa" />
+      <End Role="tb_marca" EntitySet="tb_marca" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_modelo_tb_empresa1" Association="db_vendasModel.fk_tb_modelo_tb_empresa1">
+      <End Role="tb_empresa" EntitySet="tb_empresa" />
+      <End Role="tb_modelo" EntitySet="tb_modelo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_veiculo_tb_empresa1" Association="db_vendasModel.fk_tb_veiculo_tb_empresa1">
+      <End Role="tb_empresa" EntitySet="tb_empresa" />
+      <End Role="tb_veiculo" EntitySet="tb_veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_vendedor_tb_empresa1" Association="db_vendasModel.fk_tb_vendedor_tb_empresa1">
+      <End Role="tb_empresa" EntitySet="tb_empresa" />
+      <End Role="tb_vendedor" EntitySet="tb_vendedor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_modelo_tb_marca1" Association="db_vendasModel.fk_tb_modelo_tb_marca1">
+      <End Role="tb_marca" EntitySet="tb_marca" />
+      <End Role="tb_modelo" EntitySet="tb_modelo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_veiculo_tb_modelo1" Association="db_vendasModel.fk_tb_veiculo_tb_modelo1">
+      <End Role="tb_modelo" EntitySet="tb_modelo" />
+      <End Role="tb_veiculo" EntitySet="tb_veiculo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_venda_tb_veiculo1" Association="db_vendasModel.fk_tb_venda_tb_veiculo1">
+      <End Role="tb_veiculo" EntitySet="tb_veiculo" />
+      <End Role="tb_venda" EntitySet="tb_venda" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_venda_tb_vendedor1" Association="db_vendasModel.fk_tb_venda_tb_vendedor1">
+      <End Role="tb_vendedor" EntitySet="tb_vendedor" />
+      <End Role="tb_venda" EntitySet="tb_venda" />
+    </AssociationSet>
+    <EntitySet Name="tb_cor" EntityType="db_vendasModel.tb_cor" />
+    <AssociationSet Name="fk_tb_cor_tb_empresa1" Association="db_vendasModel.fk_tb_cor_tb_empresa1">
+      <End Role="tb_empresa" EntitySet="tb_empresa" />
+      <End Role="tb_cor" EntitySet="tb_cor" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_veiculo_tb_cor1" Association="db_vendasModel.fk_tb_veiculo_tb_cor1">
+      <End Role="tb_cor" EntitySet="tb_cor" />
+      <End Role="tb_veiculo" EntitySet="tb_veiculo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tb_cliente">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_cliente" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="email_cliente" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="tel_cliente" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="endereco_cliente" Type="String" Nullable="false" MaxLength="65" FixedLength="false" Unicode="false" />
+    <Property Name="id_vendedor" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tb_vendedor" Relationship="db_vendasModel.fk_tb_cliente_tb_vendedor1" FromRole="tb_cliente" ToRole="tb_vendedor" />
+    <NavigationProperty Name="tb_venda" Relationship="db_vendasModel.fk_tb_venda_tb_cliente1" FromRole="tb_cliente" ToRole="tb_venda" />
+  </EntityType>
+  <EntityType Name="tb_empresa">
+    <Key>
+      <PropertyRef Name="id_empresa" />
+    </Key>
+    <Property Name="id_empresa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_empresa" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="email_empresa" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="cnpj_empresa" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="senha_empresa" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="status_empresacol" Type="Boolean" />
+    <NavigationProperty Name="tb_marca" Relationship="db_vendasModel.fk_tb_marca_tb_empresa" FromRole="tb_empresa" ToRole="tb_marca" />
+    <NavigationProperty Name="tb_modelo" Relationship="db_vendasModel.fk_tb_modelo_tb_empresa1" FromRole="tb_empresa" ToRole="tb_modelo" />
+    <NavigationProperty Name="tb_veiculo" Relationship="db_vendasModel.fk_tb_veiculo_tb_empresa1" FromRole="tb_empresa" ToRole="tb_veiculo" />
+    <NavigationProperty Name="tb_vendedor" Relationship="db_vendasModel.fk_tb_vendedor_tb_empresa1" FromRole="tb_empresa" ToRole="tb_vendedor" />
+    <NavigationProperty Name="tb_cor" Relationship="db_vendasModel.fk_tb_cor_tb_empresa1" FromRole="tb_empresa" ToRole="tb_cor" />
+  </EntityType>
+  <EntityType Name="tb_marca">
+    <Key>
+      <PropertyRef Name="id_marca" />
+    </Key>
+    <Property Name="id_marca" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_marca" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="id_empresa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tb_empresa" Relationship="db_vendasModel.fk_tb_marca_tb_empresa" FromRole="tb_marca" ToRole="tb_empresa" />
+    <NavigationProperty Name="tb_modelo" Relationship="db_vendasModel.fk_tb_modelo_tb_marca1" FromRole="tb_marca" ToRole="tb_modelo" />
+  </EntityType>
+  <EntityType Name="tb_modelo">
+    <Key>
+      <PropertyRef Name="id_modelo" />
+    </Key>
+    <Property Name="id_modelo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_modelo" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="id_empresa" Type="Int32" Nullable="false" />
+    <Property Name="id_marca" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tb_empresa" Relationship="db_vendasModel.fk_tb_modelo_tb_empresa1" FromRole="tb_modelo" ToRole="tb_empresa" />
+    <NavigationProperty Name="tb_marca" Relationship="db_vendasModel.fk_tb_modelo_tb_marca1" FromRole="tb_modelo" ToRole="tb_marca" />
+    <NavigationProperty Name="tb_veiculo" Relationship="db_vendasModel.fk_tb_veiculo_tb_modelo1" FromRole="tb_modelo" ToRole="tb_veiculo" />
+  </EntityType>
+  <EntityType Name="tb_veiculo">
+    <Key>
+      <PropertyRef Name="id_veiculo" />
+    </Key>
+    <Property Name="id_veiculo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="placa_veiculo" Type="String" Nullable="false" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="anofab_veiculo" Type="Int16" Nullable="false" />
+    <Property Name="ano_veiculo" Type="Int16" Nullable="false" />
+    <Property Name="km_veiculo" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="porta_veiculo" Type="Int16" Nullable="false" />
+    <Property Name="airbag_veiculo" Type="Int16" Nullable="false" />
+    <Property Name="direcao_veiculo" Type="Int16" Nullable="false" />
+    <Property Name="situacao_veiculo" Type="Int16" Nullable="false" />
+    <Property Name="ar_veiculo" Type="Boolean" Nullable="false" />
+    <Property Name="abs_veiculo" Type="Boolean" Nullable="false" />
+    <Property Name="venda_veiculo" Type="Decimal" Nullable="false" />
+    <Property Name="compra_veiculo" Type="Decimal" Nullable="false" />
+    <Property Name="obs_veiculo" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="data_veiculo" Type="DateTime" />
+    <Property Name="id_modelo" Type="Int32" Nullable="false" />
+    <Property Name="id_cor" Type="Int32" Nullable="false" />
+    <Property Name="id_empresa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tb_empresa" Relationship="db_vendasModel.fk_tb_veiculo_tb_empresa1" FromRole="tb_veiculo" ToRole="tb_empresa" />
+    <NavigationProperty Name="tb_modelo" Relationship="db_vendasModel.fk_tb_veiculo_tb_modelo1" FromRole="tb_veiculo" ToRole="tb_modelo" />
+    <NavigationProperty Name="tb_venda" Relationship="db_vendasModel.fk_tb_venda_tb_veiculo1" FromRole="tb_veiculo" ToRole="tb_venda" />
+    <NavigationProperty Name="tb_cor" Relationship="db_vendasModel.fk_tb_veiculo_tb_cor1" FromRole="tb_veiculo" ToRole="tb_cor" />
+  </EntityType>
+  <EntityType Name="tb_venda">
+    <Key>
+      <PropertyRef Name="id_venda" />
+    </Key>
+    <Property Name="id_venda" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="formapgto_venda" Type="Int16" Nullable="false" />
+    <Property Name="descricao_venda" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="id_vendedor" Type="Int32" Nullable="false" />
+    <Property Name="id_veiculo" Type="Int32" Nullable="false" />
+    <Property Name="id_cliente" Type="Int32" Nullable="false" />
+    <Property Name="data_venda" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="tb_cliente" Relationship="db_vendasModel.fk_tb_venda_tb_cliente1" FromRole="tb_venda" ToRole="tb_cliente" />
+    <NavigationProperty Name="tb_veiculo" Relationship="db_vendasModel.fk_tb_venda_tb_veiculo1" FromRole="tb_venda" ToRole="tb_veiculo" />
+    <NavigationProperty Name="tb_vendedor" Relationship="db_vendasModel.fk_tb_venda_tb_vendedor1" FromRole="tb_venda" ToRole="tb_vendedor" />
+  </EntityType>
+  <EntityType Name="tb_vendedor">
+    <Key>
+      <PropertyRef Name="id_vendedor" />
+    </Key>
+    <Property Name="id_vendedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_vendedor" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="email_vendedor" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="tel_vendedor" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="endereco_vendedor" Type="String" Nullable="false" MaxLength="65" FixedLength="false" Unicode="false" />
+    <Property Name="senha_vendedor" Type="String" Nullable="false" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="status_vendedor" Type="Boolean" Nullable="false" />
+    <Property Name="data_vendedor" Type="DateTime" />
+    <Property Name="id_empresa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tb_cliente" Relationship="db_vendasModel.fk_tb_cliente_tb_vendedor1" FromRole="tb_vendedor" ToRole="tb_cliente" />
+    <NavigationProperty Name="tb_empresa" Relationship="db_vendasModel.fk_tb_vendedor_tb_empresa1" FromRole="tb_vendedor" ToRole="tb_empresa" />
+    <NavigationProperty Name="tb_venda" Relationship="db_vendasModel.fk_tb_venda_tb_vendedor1" FromRole="tb_vendedor" ToRole="tb_venda" />
+  </EntityType>
+  <Association Name="fk_tb_cliente_tb_vendedor1">
+    <End Type="db_vendasModel.tb_vendedor" Role="tb_vendedor" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_cliente" Role="tb_cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_vendedor">
+        <PropertyRef Name="id_vendedor" />
+      </Principal>
+      <Dependent Role="tb_cliente">
+        <PropertyRef Name="id_vendedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_venda_tb_cliente1">
+    <End Type="db_vendasModel.tb_cliente" Role="tb_cliente" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_venda" Role="tb_venda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_cliente">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="tb_venda">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_marca_tb_empresa">
+    <End Type="db_vendasModel.tb_empresa" Role="tb_empresa" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_marca" Role="tb_marca" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_empresa">
+        <PropertyRef Name="id_empresa" />
+      </Principal>
+      <Dependent Role="tb_marca">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_modelo_tb_empresa1">
+    <End Type="db_vendasModel.tb_empresa" Role="tb_empresa" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_modelo" Role="tb_modelo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_empresa">
+        <PropertyRef Name="id_empresa" />
+      </Principal>
+      <Dependent Role="tb_modelo">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_veiculo_tb_empresa1">
+    <End Type="db_vendasModel.tb_empresa" Role="tb_empresa" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_veiculo" Role="tb_veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_empresa">
+        <PropertyRef Name="id_empresa" />
+      </Principal>
+      <Dependent Role="tb_veiculo">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_vendedor_tb_empresa1">
+    <End Type="db_vendasModel.tb_empresa" Role="tb_empresa" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_vendedor" Role="tb_vendedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_empresa">
+        <PropertyRef Name="id_empresa" />
+      </Principal>
+      <Dependent Role="tb_vendedor">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_modelo_tb_marca1">
+    <End Type="db_vendasModel.tb_marca" Role="tb_marca" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_modelo" Role="tb_modelo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_marca">
+        <PropertyRef Name="id_marca" />
+      </Principal>
+      <Dependent Role="tb_modelo">
+        <PropertyRef Name="id_marca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_veiculo_tb_modelo1">
+    <End Type="db_vendasModel.tb_modelo" Role="tb_modelo" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_veiculo" Role="tb_veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_modelo">
+        <PropertyRef Name="id_modelo" />
+      </Principal>
+      <Dependent Role="tb_veiculo">
+        <PropertyRef Name="id_modelo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_venda_tb_veiculo1">
+    <End Type="db_vendasModel.tb_veiculo" Role="tb_veiculo" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_venda" Role="tb_venda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_veiculo">
+        <PropertyRef Name="id_veiculo" />
+      </Principal>
+      <Dependent Role="tb_venda">
+        <PropertyRef Name="id_veiculo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_venda_tb_vendedor1">
+    <End Type="db_vendasModel.tb_vendedor" Role="tb_vendedor" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_venda" Role="tb_venda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_vendedor">
+        <PropertyRef Name="id_vendedor" />
+      </Principal>
+      <Dependent Role="tb_venda">
+        <PropertyRef Name="id_vendedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tb_cor">
+    <Key>
+      <PropertyRef Name="id_cor" />
+    </Key>
+    <Property Name="id_cor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nome_cor" Type="String" Nullable="false" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="id_empresa" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tb_empresa" Relationship="db_vendasModel.fk_tb_cor_tb_empresa1" FromRole="tb_cor" ToRole="tb_empresa" />
+    <NavigationProperty Name="tb_veiculo" Relationship="db_vendasModel.fk_tb_veiculo_tb_cor1" FromRole="tb_cor" ToRole="tb_veiculo" />
+  </EntityType>
+  <Association Name="fk_tb_cor_tb_empresa1">
+    <End Type="db_vendasModel.tb_empresa" Role="tb_empresa" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_cor" Role="tb_cor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_empresa">
+        <PropertyRef Name="id_empresa" />
+      </Principal>
+      <Dependent Role="tb_cor">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_veiculo_tb_cor1">
+    <End Type="db_vendasModel.tb_cor" Role="tb_cor" Multiplicity="1" />
+    <End Type="db_vendasModel.tb_veiculo" Role="tb_veiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_cor">
+        <PropertyRef Name="id_cor" />
+      </Principal>
+      <Dependent Role="tb_veiculo">
+        <PropertyRef Name="id_cor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

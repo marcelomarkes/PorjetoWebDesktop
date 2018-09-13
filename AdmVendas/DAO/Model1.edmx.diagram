@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9297986e3eb847638b48a7cd0409da6a" Name="Diagram1">
+        <EntityTypeShape EntityType="db_vendasModel.tb_cliente" Width="1.5" PointX="5.25" PointY="6.375" />
+        <EntityTypeShape EntityType="db_vendasModel.tb_empresa" Width="1.5" PointX="0.75" PointY="6.125" />
+        <EntityTypeShape EntityType="db_vendasModel.tb_marca" Width="1.5" PointX="3" PointY="10.125" />
+        <EntityTypeShape EntityType="db_vendasModel.tb_modelo" Width="1.5" PointX="5.25" PointY="9.875" />
+        <EntityTypeShape EntityType="db_vendasModel.tb_veiculo" Width="1.5" PointX="8.25" PointY="3.625" />
+        <EntityTypeShape EntityType="db_vendasModel.tb_venda" Width="1.5" PointX="10.5" PointY="5" />
+        <EntityTypeShape EntityType="db_vendasModel.tb_vendedor" Width="1.5" PointX="3" PointY="6" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_cliente_tb_vendedor1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_venda_tb_cliente1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_marca_tb_empresa" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_modelo_tb_empresa1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_veiculo_tb_empresa1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_vendedor_tb_empresa1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_modelo_tb_marca1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_veiculo_tb_modelo1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_venda_tb_veiculo1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_venda_tb_vendedor1" />
+        <EntityTypeShape EntityType="db_vendasModel.tb_cor" Width="1.5" PointX="3" PointY="2.75" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_cor_tb_empresa1" />
+        <AssociationConnector Association="db_vendasModel.fk_tb_veiculo_tb_cor1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,43 @@
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\App.Config
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll.config
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.pdb
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.dll
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.xml
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.dll
+C:\Users\Marcelo Lima\Documents\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.pdb
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\App.Config
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll.config
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.pdb
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.dll
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.xml
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csproj.CopyComplete
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.dll
+E:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.pdb
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\App.Config
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll.config
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.pdb
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.dll
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.xml
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.dll
+D:\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.pdb
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\App.Config
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll.config
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.dll
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\DAO.pdb
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.dll
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\bin\Debug\EntityFramework.xml
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.dll
+C:\Users\marce\Documents\Projetos em Desenvolvimento\Curso de Programação C#\Programação C#\AdmVendas\DAO\obj\Debug\DAO.pdb
